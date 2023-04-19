@@ -1,0 +1,6 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/code-reflections/code-reflections.github.io
+[submodule "themes/DeepThought"]
+	path = themes/DeepThought
+	url = https://github.com/RatanShreshtha/DeepThought
