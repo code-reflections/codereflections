@@ -62,52 +62,60 @@ I wanted to see what it would come up with, and use it as a starting point to
 work from.  For the sake of transparency, here is the exact draft that ChatGPT
 gave me in response:
 
-> Title: Welcome to CodeReflections: A Journey in Programming
->
-> Hello, fellow programmers and tech enthusiasts! Welcome to CodeReflections, a
-> blog dedicated to exploring programming languages, tools, and best practices.
-> I'm thrilled to embark on this journey with you all, and I hope that together
-> we can learn, grow, and share our passion for programming.
->
-> To kick things off, let's talk about the purpose of this blog and what you
-> can expect to find here. CodeReflections is primarily focused on Perl and
-> Rust, two languages I personally love working with. However, as a programming
-> polyglot, I won't limit the discussion to just these two languages. You can
-> expect to see content related to various programming languages, tools,
-> libraries, and techniques.
->
-> As Alan Kay once said, "Simple things should be simple, and complex things
-> should be possible." This quote perfectly encapsulates the philosophy behind
-> this blog. I believe that good programming practices should enable us to make
-> simple tasks simple and give us the tools to tackle complex challenges when
-> needed.
->
-> Here's what you can expect from CodeReflections:
->
-> Tutorials and Guides: Easy-to-follow explanations and practical examples to
-> help you learn new concepts, tools, and libraries.
->
-> Code Optimization: Tips and tricks for writing efficient, elegant, and
-> maintainable code.
->
-> Language Comparisons: Analyzing the strengths and weaknesses of different
-> programming languages and how they can be utilized in various projects.
->
-> Best Practices: Discussions on design patterns, testing methodologies, and
-> other practices to help you become a better programmer.
->
-> Personal Insights: As I explore new languages, tools, and techniques, I'll
-> share my thoughts and experiences in hopes that they might resonate with you
-> or spark a conversation.
->
-> In the spirit of open-source, I welcome contributions and discussions from
-> the community. If you have any suggestions, comments, or questions, feel free
-> to leave a comment or reach out to me via social media.
->
-> Thank you for joining me on this adventure, and I look forward to our future
-> discussions on CodeReflections.
->
-> Happy coding!
+{{ first_msg() }}
+
+Help me write the first post for the blog.
+
+{{ chatgpt_msg() }}
+
+Title: Welcome to CodeReflections: A Journey in Programming
+
+Hello, fellow programmers and tech enthusiasts! Welcome to CodeReflections, a
+blog dedicated to exploring programming languages, tools, and best practices.
+I'm thrilled to embark on this journey with you all, and I hope that together
+we can learn, grow, and share our passion for programming.
+
+To kick things off, let's talk about the purpose of this blog and what you
+can expect to find here. CodeReflections is primarily focused on Perl and
+Rust, two languages I personally love working with. However, as a programming
+polyglot, I won't limit the discussion to just these two languages. You can
+expect to see content related to various programming languages, tools,
+libraries, and techniques.
+
+As Alan Kay once said, "Simple things should be simple, and complex things
+should be possible." This quote perfectly encapsulates the philosophy behind
+this blog. I believe that good programming practices should enable us to make
+simple tasks simple and give us the tools to tackle complex challenges when
+needed.
+
+Here's what you can expect from CodeReflections:
+
+Tutorials and Guides: Easy-to-follow explanations and practical examples to
+help you learn new concepts, tools, and libraries.
+
+Code Optimization: Tips and tricks for writing efficient, elegant, and
+maintainable code.
+
+Language Comparisons: Analyzing the strengths and weaknesses of different
+programming languages and how they can be utilized in various projects.
+
+Best Practices: Discussions on design patterns, testing methodologies, and
+other practices to help you become a better programmer.
+
+Personal Insights: As I explore new languages, tools, and techniques, I'll
+share my thoughts and experiences in hopes that they might resonate with you
+or spark a conversation.
+
+In the spirit of open-source, I welcome contributions and discussions from
+the community. If you have any suggestions, comments, or questions, feel free
+to leave a comment or reach out to me via social media.
+
+Thank you for joining me on this adventure, and I look forward to our future
+discussions on CodeReflections.
+
+Happy coding!
+
+{{ last_msg() }}
 
 Pretty good, right?  Honestly, I don't disagree with anything above, but it
 still sounds a bit generic to me.  As you can see, I've deviated quite a bit
@@ -118,22 +126,27 @@ will tell.
 
 I figure that I might as well explore reasonable monetization options for this
 blog.  I'm not going to hold my breath hoping to make a living as a blogger,
-but every little bit helps, right?  It's worth a try, so I instructed ChatGPT
-to "Add a paragraph with a suitable disclosure for possible monetization (e.g.
-ads/affiliate links/sponsorships) and use of ChatGPT."
+but every little bit helps, right?  It's worth a try, so I instructed ChatGPT:
 
-Here's what ChatGPT wrote:
+{{ first_msg() }}
 
-> In the interest of transparency, I want to inform you that CodeReflections
-> may be monetized in the future through advertisements, affiliate links, and
-> sponsorships. These monetization methods help support the creation and
-> maintenance of this blog. Any such content will always be clearly identified,
-> and I promise to maintain a high standard of quality in my posts. Rest
-> assured that my priority is to provide valuable and unbiased content to my
-> readers. Additionally, some of the content on this blog, including this post,
-> has been drafted with the assistance of ChatGPT, an AI language model
-> developed by OpenAI. This tool aids me in generating ideas and refining the
-> content, but the thoughts and opinions expressed here are my own.
+Add a paragraph with a suitable disclosure for possible monetization (e.g.
+ads/affiliate links/sponsorships) and use of ChatGPT.
+
+{{ chatgpt_msg() }}
+
+In the interest of transparency, I want to inform you that CodeReflections
+may be monetized in the future through advertisements, affiliate links, and
+sponsorships. These monetization methods help support the creation and
+maintenance of this blog. Any such content will always be clearly identified,
+and I promise to maintain a high standard of quality in my posts. Rest
+assured that my priority is to provide valuable and unbiased content to my
+readers. Additionally, some of the content on this blog, including this post,
+has been drafted with the assistance of ChatGPT, an AI language model
+developed by OpenAI. This tool aids me in generating ideas and refining the
+content, but the thoughts and opinions expressed here are my own.
+
+{{ last_msg() }}
 
 Sure, I guess this works.  No notes.
 
