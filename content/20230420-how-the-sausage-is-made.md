@@ -1,8 +1,8 @@
 +++
 title = "How the sausage is made."
-date = 2023-04-21
+date = 2023-04-20
 slug = "how-the-sausage-is-made"
-path = "/2023/04/21/how-the-sausage-is-made/"
+path = "/2023/04/20/how-the-sausage-is-made/"
 
 [taxonomies]
 categories = ["Meta"]

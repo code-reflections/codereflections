@@ -1,8 +1,8 @@
 +++
 title = "What's in a name?"
-date = 2023-04-20
+date = 2023-04-19
 slug = "whats-in-a-name"
-path = "/2023/04/20/whats-in-a-name/"
+path = "/2023/04/19/whats-in-a-name/"
 
 [taxonomies]
 categories = ["Meta"]
