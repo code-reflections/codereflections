@@ -20,7 +20,7 @@ do some research and think about this decision.  ChatGPT was happy to help.
 The need to choose a blogging platform was mentioned in ChatGPT's response to
 my very first message in the conversation about starting this blog.  Here is
 that initial exchange; it was immediately followed by the lengthy ChatGPT
-conversation quoted in [yesterday's post](/2023/04/20/whats-in-a-name/) about
+conversation quoted in [yesterday's post](/2023/04/19/whats-in-a-name/) about
 the search for a name for the blog:
 
 {{ first_msg() }}
