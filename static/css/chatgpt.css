@@ -26,6 +26,7 @@
 .message-content {
   flex: 1 1 auto;
   vertical-align: top;
+  min-width: 0;
 }
 
 .message-content blockquote {
