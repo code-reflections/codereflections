@@ -10,7 +10,7 @@ tags = ["ChatGPT", "CodeReflections", "Zola", "Remark42"]
 +++
 
 My lengthy conversation with ChatGPT continues!  In [yesterday's
-post](/2023/04/22/choosing-a-blogging-platform), I decided to use Zola as the
+post](/2023/04/22/choosing-a-blogging-platform/), I decided to use Zola as the
 blogging platform.  Now I have to figure out how to integrate a comment system
 into a static site generator...
 
@@ -805,5 +805,6 @@ your detection method might not always be 100% effective.
 
 {{ last_msg() }}
 
-This is a good stopping point; the topic of tomorrow's post will be the search
-for a theme to use for the blog.
+This is a good stopping point; the topic of [my next
+post](/2023/05/05/choosing-a-website-theme/) will be the search for a theme to
+use for the blog.
