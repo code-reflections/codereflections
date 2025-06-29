@@ -7,6 +7,6 @@ gitdir="gitdir: ../.git/modules/public"
 if [ -z "$SKIP_POST_COMMIT" ]; then
     (mkdir -p public && cd public && echo $gitdir >.git && git switch main && git reset) && \
     zola build && \
-    (cd public && echo $gitdir >.git && git add . && git commit -m "zola build") && \
+    (cd public && echo $gitdir >.git && cp ../CNAME CNAME && git add . && git commit -m "zola build") && \
     git add public && SKIP_POST_COMMIT=1 git commit --amend --no-edit
 fi
