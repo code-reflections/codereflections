@@ -6,7 +6,8 @@ path = "/2023/08/05/wrapping-up-the-origin-story/"
 
 [taxonomies]
 categories = ["Meta"]
-tags = ["ChatGPT", "CodeReflections"]
+tags = ["ChatGPT", "CodeReflections", "Perl conference", "Regular Expressions",
+"Talks"]
 +++
 
 Well, it's been over a month again since [my last
